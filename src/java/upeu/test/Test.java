@@ -19,11 +19,14 @@ static Gson g = new Gson();
     /**
      * @param args the command line arguments
      */
+
     public static void main(String[] args) {
+        
         // TODO code application logic here
 
         if(Conexion.getConexion()!=null){
             System.out.println("si");
+            
         }else{
             System.out.println("no");
         }
